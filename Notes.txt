@@ -1,0 +1,46 @@
+Bat League app
+==============
+
+Todo:
+-----
+
+
+
+Add next points to League table and re-sort
+cache previous results and show until updated
+check previous round date and check if really needs update (7 day gap)
+
+
+Done
+
+
+
+http://www.gamebucket.io/game/ce48cd74-5762-4123-b335-399c34c274f1
+
+
+Flurry Key
+3W5VZBTVFVJZKWP7B9K8
+
+
+ChangeLog
+---------
+
+1.0.4	24/05/17
+	Fix scroll bug on about page.
+	indent text slightly at screen edges
+	Fixed bug when player substituted mid-series.
+
+1.0.3   19/08/15
+	Put a white background round the app icon
+	Can select your team & player name in Settings.
+	Hilights selected team/player throughout app.
+	Added Flurry analytics
+
+1.0.2	02/06/15
+	Fixed the last line of fixtures not displaying.
+	Added Season Highs.
+	Added an About page.
+	Changed the icon.	
+
+1.0.1	07/05/15	
+	Initial version

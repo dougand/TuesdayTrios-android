@@ -1,0 +1,108 @@
+<LinearLayout
+    android:id="@+id/about_layout"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/textView_aboutAppTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView_aboutAppVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_version"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_programmed"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_programmer"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_app_company"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/textView_aboutLeagueTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_league_title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#ff000000"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView_aboutLeagueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_league_text1"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about_league_text5"
+                android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
